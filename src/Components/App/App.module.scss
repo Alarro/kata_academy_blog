@@ -1,0 +1,26 @@
+.mainWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-color: #E5E5E5;
+  }
+  
+  .moduleDisable {
+    position:absolute;
+    width:100%;
+    height:100%;
+    background: grey;
+    z-index: 10000;
+    opacity: 0.2;
+    overflow: hidden;
+  }
+  
+  .displayNone {
+    display: none;
+  }
+  
+  .overflowHidden {
+    overflow: hidden;
+    width:100vw;
+    height:100vh;
+  }

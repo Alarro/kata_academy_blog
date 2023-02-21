@@ -1,0 +1,169 @@
+.createNewArticle__wrapper {
+    box-sizing: border-box;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 48px 32px;
+    gap: 21px;
+  
+    width: 938px;
+    min-height: 701px;
+  
+    margin-top: 20px;
+  
+    background: #FFFFFF;
+  
+    border: 1px solid #D9D9D9;
+    box-shadow: 0 22px 106px rgba(0, 0, 0, 0.07),
+    0 9.19107px 44.2843px rgba(0, 0, 0, 0.0503198),
+    0 4.91399px 23.6765px rgba(0, 0, 0, 0.0417275),
+    0 2.75474px 13.2728px rgba(0, 0, 0, 0.035),
+    0 1.46302px 7.04911px rgba(0, 0, 0, 0.0282725),
+    0 0.608796px 2.93329px rgba(0, 0, 0, 0.0196802);
+    border-radius: 6px;
+  }
+  
+  .createNewArticle__header {
+    width: 311px;
+    height: 28px;
+  
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+  
+    text-align: center;
+  
+    color: #262626;
+  
+    flex: none;
+    order: 0;
+    align-self: center;
+    flex-grow: 0;
+  }
+  
+  .input__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap:21px;
+    margin: 10px 0 0 0;
+  }
+  
+  .input__description {
+    width: 320px;
+    height: 22px;
+  
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+  
+    display: flex;
+    align-items: center;
+  
+    color: #262626;
+  }
+  
+  .inputTitle, .inputShortDescription, .inputText, .inputTag {
+    font-size: 16px;
+    line-height: 24px;
+    box-sizing: border-box;
+    width: 874px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+    padding-left: 5px;
+  
+  }
+  
+  .inputText {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    height:168px;
+    overflow: scroll;
+  }
+  
+  .tagsWrapper{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+  }
+  
+  .tagWrapper{
+    display: flex;
+    gap:10px;
+  }
+  
+  .inputTag {
+    width:300px;
+    height:40px;
+  }
+  
+  .deleteBtn {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #F5222D;
+    border-radius: 5px;
+    color: #F5222D;
+    width:90px;
+  }
+  
+  .addBtn {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #1890FF;
+    border-radius: 5px;
+    color: #1890FF;
+    width:90px;
+  }
+  
+  
+  ::placeholder { 
+    color: #BFBFBF;
+    opacity: 1; 
+  }
+  
+  .sendButton{
+    display: flex;
+    justify-content: center;
+    padding: 8px 16px;
+    gap: 4px;
+  
+    width: 319px;
+    height: 40px;
+  
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #1890FF;
+    border:none;
+    border-radius: 4px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .inputWrong {
+    border-color: #F5222D;
+    outline: none;
+  }

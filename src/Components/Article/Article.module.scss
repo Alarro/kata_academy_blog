@@ -1,0 +1,220 @@
+.articleWrapper {
+    margin: 26px 0 0 0;
+    background: #FFFFFF;
+    border-radius: 5px;
+    min-height: 140px;
+    width: 941px;
+    position: relative;
+  }
+  .articleHeader {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .leftSide {
+    margin: 0 0 0 19px;
+  }
+  
+  .leftSide__header{
+    display: flex;
+    height: auto;
+  }
+  
+  .leftSide__tagWrapper{
+    padding-right:50px;
+  }
+  
+  .title {
+    max-width: 620px;
+    height: 100%;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #1890FF;
+    margin: 14px 0 4px -5px;
+    border:none;
+  }
+  
+  .like {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 28px;
+    margin: 15px 0 15px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .like__number{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.75)
+  }
+  
+  .like__input {
+    position: absolute;
+    -webkit-appearance: none;
+  }
+  
+  .like__box {
+    margin: 0 0 0 13px;
+    width: 16px;
+    height: 16px;
+    background-image: url("../../img/noLike.png");
+  }
+  
+  .like__input:checked + .like__box {
+    background: url("../../img/Like.png") no-repeat center;
+  }
+  
+  .like__number {
+    margin: 0 0 0 5px;
+  }
+  
+  .tag {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 3px;
+    margin: 0 8px 0 0;
+  
+    color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .leftSide__description {
+    width: 682px;
+    height:auto;
+    margin-top: 10px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+  
+    color: rgba(0, 0, 0, 0.75);
+  }
+  
+  .articleTextDisplayNone {
+   display: none;
+  }
+  
+  .articleText {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+  
+    color: rgba(0, 0, 0, 0.75);
+    margin: 0 60px 0 19px;
+    padding-bottom: 300px;
+  }
+  
+  .articleAccountInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 17px 14px 0 0;
+  }
+  
+  .articleProfileName {
+    position: absolute;
+    height: 28px;
+    right: 72px;
+    top: 15px;
+    border:none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+  
+    display: flex;
+    align-items: center;
+  
+    color: rgba(0, 0, 0, 0.85);
+  
+  }
+  
+  .articleProfilePic {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    right: 14px;
+    top: 15px;
+    border-radius: 50%;
+  }
+  
+  .articleDate {
+  
+    position: absolute;
+    width: auto;
+    height: 22px;
+    right: 72px;
+    top: 39px;
+  
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+  
+    display: flex;
+    align-items: center;
+  
+    color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .deleteButton {
+    box-sizing: border-box;
+    position: absolute;
+    width: 78px;
+    height: 31.1px;
+    left: 769px;
+    top: 91px;
+    border: 1px solid #F5222D;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    justify-content: center;
+    color: #F5222D;
+  }
+  
+  .editButton {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    justify-content: center;
+    color: #52C41A;
+    position: absolute;
+    width: 65.23px;
+    height: 31.1px;
+    left: 859px;
+    top: 91px;
+    border: 1px solid #52C41A;
+    border-radius: 5px;
+  }
+  
+  .displayNone {
+    display: none;
+  }

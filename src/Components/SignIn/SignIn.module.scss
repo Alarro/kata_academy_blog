@@ -1,0 +1,120 @@
+.signIn {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 48px 32px;
+    gap: 21px;
+    margin-top: 30px;
+    width: 384px;
+    min-height: 374px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    box-shadow: 0 22px 106px rgba(0, 0, 0, 0.07),
+    0 9.19107px 44.2843px rgba(0, 0, 0, 0.0503198),
+    0 4.91399px 23.6765px rgba(0, 0, 0, 0.0417275),
+    0 2.75474px 13.2728px rgba(0, 0, 0, 0.035),
+    0 1.46302px 7.04911px rgba(0, 0, 0, 0.0282725),
+    0 0.608796px 2.93329px rgba(0, 0, 0, 0.0196802);
+    border-radius: 6px;
+  }
+  
+  .signInHeader {
+    color: #262626;
+    width: 311px;
+    height: 28px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    flex: none;
+    order: 0;
+    align-self: center;
+    flex-grow: 0;
+  }
+  
+  .inputSign {
+    color: #262626;
+    width: 320px;
+    height: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    
+  }
+  
+  .inputField {
+    box-sizing: border-box;
+    width: 320px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+    outline-color: #1890FF;
+  }
+  
+  .inputWrong {
+    border-color: #F5222D;
+    outline: none;
+  }
+  
+  .passwordError {
+    width: 320px;
+    height: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #F5222D;
+  }
+  
+  .signUp__footer {
+    width: 319px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .btnLogin {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+    gap: 4px;
+    width: 319px;
+    height: 40px;
+    background: #1890FF;
+    border: none;
+    border-radius: 4px;
+    color: #FFFFFF;
+    margin-top: 10px;
+  }
+  
+  .footerCaption {
+    width: 319px;
+    height: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #8C8C8C;
+    margin-top: 8px;
+  }
+  
+  .signInFooter__a {
+    color:#1890FF;
+    text-decoration: none;
+  }
