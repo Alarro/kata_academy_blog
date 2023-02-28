@@ -1,21 +1,14 @@
 .editProfile {
     box-sizing: border-box;
-  
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 48px 32px;
     gap: 21px;
-  
-    //position: absolute;
     width: 384px;
     min-height: 498px;
     margin-top: 30px;
-    //left: 523px;
-    //top: 139px;
-  
     background: #FFFFFF;
-  
     border: 1px solid #D9D9D9;
     box-shadow: 0 22px 106px rgba(0, 0, 0, 0.07),
     0 9.19107px 44.2843px rgba(0, 0, 0, 0.0503198),
@@ -29,7 +22,6 @@
   .editProfileHeader {
     width: 311px;
     height: 28px;
-  
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -58,7 +50,6 @@
     box-sizing: border-box;
     width: 320px;
     height: 40px;
-  
     background: #FFFFFF;
     border: 1px solid #D9D9D9;
     border-radius: 4px;
@@ -71,16 +62,13 @@
   }
   
   .passwordError {
-  
     width: 320px;
     height: 22px;
-  
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 22px;
-  
     color: #F5222D;
   }
   

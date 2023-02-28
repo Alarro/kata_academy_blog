@@ -27,14 +27,12 @@
   
   .title {
     max-width: 620px;
-  
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
     display: flex;
-    //align-items: center;
     color: #1890FF;
     margin: 14px 0 4px -5px;
     border:none;
@@ -44,7 +42,6 @@
     height: 28px;
     margin: 15px 0 15px 0;
     display: flex;
-    //align-items: center;
   }
   
   .like__number{
@@ -91,7 +88,6 @@
     line-height: 15px;
     padding: 3px;
     margin: 0 8px 0 0;
-  
     color: rgba(0, 0, 0, 0.5);
   }
   
@@ -127,18 +123,14 @@
     right: 72px;
     top: 15px;
     border:none;
-  
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
-  
     display: flex;
     align-items: center;
-  
     color: rgba(0, 0, 0, 0.85);
-  
   }
   
   .articleAccountImage {
@@ -157,16 +149,13 @@
     height: 22px;
     right: 72px;
     top: 39px;
-  
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 22px;
-  
     display: flex;
     align-items: center;
-  
     color: rgba(0, 0, 0, 0.5);
   }
   
